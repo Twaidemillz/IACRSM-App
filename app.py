@@ -60,7 +60,7 @@ with st.sidebar:
     st.markdown("""
     <hr style="border-color:rgba(255,255,255,0.15);">
     <div style="font-size:0.68rem; color:#7B9FC4; text-align:center;">
-        Dissertation Project · 2024<br>
+        Final Year Project · 2026<br>
         Logistic Regression · Decision Tree<br>
         Random Forest · XGBoost · SHAP
     </div>
