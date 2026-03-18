@@ -1,0 +1,11 @@
+{
+    "model": "Random Forest",
+    "test_set": "200 samples (stratified 20%)",
+    "threshold": 0.5,
+    "ROC-AUC": 0.8054,
+    "Recall": 0.45,
+    "Precision": 0.7105,
+    "F1": 0.551,
+    "Accuracy": 0.78,
+    "MCC": 0.4339
+}

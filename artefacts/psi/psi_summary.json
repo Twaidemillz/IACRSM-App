@@ -1,0 +1,17 @@
+{
+    "No Drift": {
+        "PSI": 0.0992,
+        "Band": "Stable",
+        "Action": "No action required \u2014 model is stable."
+    },
+    "Moderate Drift": {
+        "PSI": 0.1927,
+        "Band": "Moderate",
+        "Action": "Monitor closely \u2014 investigate feature shifts."
+    },
+    "Severe Drift": {
+        "PSI": 2.0443,
+        "Band": "Critical",
+        "Action": "Trigger retraining \u2014 significant concept drift detected."
+    }
+}

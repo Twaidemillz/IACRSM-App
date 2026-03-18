@@ -1,0 +1,15 @@
+{
+    "best_model": "XGBoost",
+    "model_file": "artefacts/models/xgboost\\xgboost.pkl",
+    "selection_criterion": "Highest ROC-AUC (primary), F1-Score (tiebreaker)",
+    "threshold": 0.5,
+    "metrics": {
+        "ROC-AUC": 0.8061,
+        "Recall": 0.7,
+        "Precision": 0.4941,
+        "F1": 0.5793,
+        "Accuracy": 0.695,
+        "MCC": 0.3642,
+        "threshold": 0.5
+    }
+}

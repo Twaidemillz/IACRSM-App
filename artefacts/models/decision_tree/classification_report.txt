@@ -1,0 +1,11 @@
+Model: Decision Tree
+Threshold: 0.5
+==================================================
+                 precision    recall  f1-score   support
+
+Good Credit (0)       0.84      0.56      0.68       140
+ Bad Credit (1)       0.42      0.75      0.54        60
+
+       accuracy                           0.62       200
+      macro avg       0.63      0.66      0.61       200
+   weighted avg       0.72      0.62      0.64       200

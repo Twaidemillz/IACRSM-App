@@ -1,0 +1,11 @@
+Model: Logistic Regression
+Threshold: 0.5
+==================================================
+                 precision    recall  f1-score   support
+
+Good Credit (0)       0.86      0.70      0.77       140
+ Bad Credit (1)       0.51      0.73      0.60        60
+
+       accuracy                           0.71       200
+      macro avg       0.69      0.72      0.69       200
+   weighted avg       0.76      0.71      0.72       200

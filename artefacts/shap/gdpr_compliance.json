@@ -1,0 +1,47 @@
+{
+    "regulation": "GDPR Article 22 \u2014 Automated Decision-Making",
+    "requirement": "Data subjects have the right to meaningful information about the logic of automated decisions affecting them.",
+    "implementation": "SHAP (SHapley Additive exPlanations) values are computed for every prediction made by the XGBoost model. SHAP provides mathematically guaranteed, locally accurate explanations grounded in cooperative game theory (Lundberg & Lee, 2017).",
+    "explainability_method": "TreeExplainer \u2014 exact, model-native SHAP for tree-based models. No approximation required.",
+    "global_explanation": {
+        "description": "Ranked feature importance by mean absolute SHAP value across all test predictions.",
+        "top_5_features": [
+            {
+                "Rank": 1,
+                "Feature": "checkingstatus1",
+                "Mean_SHAP": 0.6481085419654846
+            },
+            {
+                "Rank": 2,
+                "Feature": "duration",
+                "Mean_SHAP": 0.36199405789375305
+            },
+            {
+                "Rank": 3,
+                "Feature": "savings",
+                "Mean_SHAP": 0.29200178384780884
+            },
+            {
+                "Rank": 4,
+                "Feature": "history",
+                "Mean_SHAP": 0.2471824586391449
+            },
+            {
+                "Rank": 5,
+                "Feature": "amount",
+                "Mean_SHAP": 0.24636287987232208
+            }
+        ]
+    },
+    "local_explanation": {
+        "description": "Individual waterfall and force plots generated for each prediction on request. Each plot shows the exact contribution of every feature to that specific decision.",
+        "plots_generated": [
+            "True Positive\n(Correctly predicted default)",
+            "True Negative\n(Correctly predicted non-default)",
+            "False Negative\n(Missed default \u2014 critical error)",
+            "False Positive\n(False alarm)"
+        ]
+    },
+    "right_to_contest": "The system logs prediction probabilities and feature contributions. Any applicant may request an explanation of a credit decision, satisfying Article 22(3).",
+    "reference": "Lundberg, S. M., & Lee, S.-I. (2017). A unified approach to interpreting model predictions. Advances in Neural Information Processing Systems, 30."
+}

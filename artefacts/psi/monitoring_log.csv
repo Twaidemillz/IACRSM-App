@@ -1,0 +1,4 @@
+Timestamp,Scenario,PSI,Band,Action,Retrained
+2026-03-18 00:34:04,No Drift,0.0992,Stable,No action required — model is stable.,No
+2026-03-18 00:34:04,Moderate Drift,0.1927,Moderate,Monitor closely — investigate feature shifts.,No
+2026-03-18 00:34:04,Severe Drift,2.0443,Critical,Trigger retraining — significant concept drift detected.,Yes

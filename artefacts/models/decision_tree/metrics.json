@@ -1,0 +1,11 @@
+{
+    "model": "Decision Tree",
+    "test_set": "200 samples (stratified 20%)",
+    "threshold": 0.5,
+    "ROC-AUC": 0.7249,
+    "Recall": 0.75,
+    "Precision": 0.4245,
+    "F1": 0.5422,
+    "Accuracy": 0.62,
+    "MCC": 0.2886
+}

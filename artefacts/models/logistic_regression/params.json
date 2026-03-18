@@ -1,0 +1,12 @@
+{
+    "model": "Logistic Regression",
+    "search_method": "GridSearchCV",
+    "best_cv_roc_auc": 0.7789,
+    "best_params": {
+        "C": 1,
+        "max_iter": 1000,
+        "penalty": "l1",
+        "solver": "liblinear"
+    },
+    "training_time_s": 22.2
+}

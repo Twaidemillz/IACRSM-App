@@ -1,0 +1,23 @@
+{
+    "XGBoost vs Logistic Regression": {
+        "b (XGB\u2713 Other\u2717)": 10,
+        "c (XGB\u2717 Other\u2713)": 13,
+        "statistic": 10.0,
+        "p_value": 0.6776,
+        "significant_0.05": "No"
+    },
+    "XGBoost vs Decision Tree": {
+        "b (XGB\u2713 Other\u2717)": 27,
+        "c (XGB\u2717 Other\u2713)": 12,
+        "statistic": 12.0,
+        "p_value": 0.0237,
+        "significant_0.05": "Yes \u2713"
+    },
+    "XGBoost vs Random Forest": {
+        "b (XGB\u2713 Other\u2717)": 15,
+        "c (XGB\u2717 Other\u2713)": 32,
+        "statistic": 15.0,
+        "p_value": 0.0186,
+        "significant_0.05": "Yes \u2713"
+    }
+}

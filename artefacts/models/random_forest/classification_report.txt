@@ -1,0 +1,11 @@
+Model: Random Forest
+Threshold: 0.5
+==================================================
+                 precision    recall  f1-score   support
+
+Good Credit (0)       0.80      0.92      0.85       140
+ Bad Credit (1)       0.71      0.45      0.55        60
+
+       accuracy                           0.78       200
+      macro avg       0.75      0.69      0.70       200
+   weighted avg       0.77      0.78      0.76       200

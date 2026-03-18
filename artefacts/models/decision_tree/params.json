@@ -1,0 +1,12 @@
+{
+    "model": "Decision Tree",
+    "search_method": "GridSearchCV",
+    "best_cv_roc_auc": 0.7119,
+    "best_params": {
+        "criterion": "entropy",
+        "max_depth": 7,
+        "min_samples_leaf": 4,
+        "min_samples_split": 10
+    },
+    "training_time_s": 5.06
+}

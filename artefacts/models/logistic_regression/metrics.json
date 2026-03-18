@@ -1,0 +1,11 @@
+{
+    "model": "Logistic Regression",
+    "test_set": "200 samples (stratified 20%)",
+    "threshold": 0.5,
+    "ROC-AUC": 0.7904,
+    "Recall": 0.7333,
+    "Precision": 0.5116,
+    "F1": 0.6027,
+    "Accuracy": 0.71,
+    "MCC": 0.4011
+}

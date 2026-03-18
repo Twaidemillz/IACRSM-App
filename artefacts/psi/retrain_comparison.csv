@@ -1,0 +1,3 @@
+Model,ROC-AUC,Recall,Precision,F1,Accuracy,MCC
+Pre-Retrain  (XGBoost v1.0),0.8061,0.7,0.4941,0.5793,0.695,0.3642
+Post-Retrain (XGBoost v2.0),0.8154,0.75,0.5422,0.6294,0.735,0.4451

@@ -1,0 +1,46 @@
+{
+    "Logistic Regression": {
+        "ROC-AUC": 0.7904,
+        "Recall": 0.7333,
+        "Precision": 0.5116,
+        "F1": 0.6027,
+        "Accuracy": 0.71,
+        "MCC": 0.4011,
+        "Avg-Prec": 0.6043,
+        "Brier": 0.1926,
+        "Log-Loss": 0.5737
+    },
+    "Decision Tree": {
+        "ROC-AUC": 0.7249,
+        "Recall": 0.75,
+        "Precision": 0.4245,
+        "F1": 0.5422,
+        "Accuracy": 0.62,
+        "MCC": 0.2886,
+        "Avg-Prec": 0.5018,
+        "Brier": 0.2374,
+        "Log-Loss": 2.8233
+    },
+    "Random Forest": {
+        "ROC-AUC": 0.8054,
+        "Recall": 0.45,
+        "Precision": 0.7105,
+        "F1": 0.551,
+        "Accuracy": 0.78,
+        "MCC": 0.4339,
+        "Avg-Prec": 0.6609,
+        "Brier": 0.1592,
+        "Log-Loss": 0.4854
+    },
+    "XGBoost": {
+        "ROC-AUC": 0.8061,
+        "Recall": 0.7,
+        "Precision": 0.4941,
+        "F1": 0.5793,
+        "Accuracy": 0.695,
+        "MCC": 0.3642,
+        "Avg-Prec": 0.6776,
+        "Brier": 0.1819,
+        "Log-Loss": 0.5397
+    }
+}
