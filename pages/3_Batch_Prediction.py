@@ -102,8 +102,21 @@ else:
 
 # ── Run batch scoring ──────────────────────────────────────────────────────────
 with st.spinner("Scoring applicants…"):
-    results_df = predict_batch(active_model, batch_df[feature_names])
+    from utils.predictor import SCALED_COLS
 
+batch_encoded = batch_df.copy()
+label_encoders = art["label_encoders"]
+scaler = art["scaler"]
+
+for col, le in label_encoders.items():
+    if col in batch_encoded.columns:
+        batch_encoded[col] = batch_encoded[col].apply(
+            lambda x: int(le.transform([x])[0]) if x in le.classes_ else 0
+        )
+
+batch_encoded[SCALED_COLS] = scaler.transform(batch_encoded[SCALED_COLS])
+
+results_df = predict_batch(active_model, batch_encoded[feature_names])
 divider()
 section_header("Batch Results Summary")
 
